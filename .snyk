@@ -1,0 +1,82 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - bower-canary > bower-registry-client > request > hawk:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:hawk:20160119'
+        path: bower-canary > bower-registry-client > request > hawk
+  'npm:http-signature:20150122':
+    - bower-canary > request > http-signature:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:http-signature:20150122'
+        path: bower-canary > request > http-signature
+    - bower-canary > bower-registry-client > request > http-signature:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:http-signature:20150122'
+        path: bower-canary > bower-registry-client > request > http-signature
+  'npm:mime:20170907':
+    - bower-canary > request > mime:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:mime:20170907'
+        path: bower-canary > request > mime
+    - bower-canary > bower-registry-client > request > mime:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:mime:20170907'
+        path: bower-canary > bower-registry-client > request > mime
+    - bower-canary > request > form-data > mime:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:mime:20170907'
+        path: bower-canary > request > form-data > mime
+    - bower-canary > bower-registry-client > request > form-data > mime:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:mime:20170907'
+        path: bower-canary > bower-registry-client > request > form-data > mime
+  'npm:minimatch:20160620':
+    - bower-canary > fstream-ignore > minimatch:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:minimatch:20160620'
+        path: bower-canary > fstream-ignore > minimatch
+    - bower-canary > glob > minimatch:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:minimatch:20160620'
+        path: bower-canary > glob > minimatch
+  'npm:qs:20140806-1':
+    - bower-canary > request > qs:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:qs:20140806-1'
+        path: bower-canary > request > qs
+    - bower-canary > bower-registry-client > request > qs:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:qs:20140806-1'
+        path: bower-canary > bower-registry-client > request > qs
+  'npm:request:20160119':
+    - bower-canary > bower-registry-client > request:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:request:20160119'
+        path: bower-canary > bower-registry-client > request
+    - bower-canary > request:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:request:20160119'
+        path: bower-canary > request
+  'npm:semver:20150403':
+    - bower-canary > semver:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:semver:20150403'
+        path: bower-canary > semver
+    - bower-canary > update-notifier > semver:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:semver:20150403'
+        path: bower-canary > update-notifier > semver
+  'npm:tar:20151103':
+    - bower-canary > tar:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:tar:20151103'
+        path: bower-canary > tar
+  'npm:uglify-js:20151024':
+    - bower-canary > handlebars > uglify-js:
+        patched: '2024-09-11T03:40:35.896Z'
+        id: 'npm:uglify-js:20151024'
+        path: bower-canary > handlebars > uglify-js
